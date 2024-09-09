@@ -7,7 +7,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
       - name: Podcast Generator - @siddydutta
-        uses: siddydutta/podcast-generator@v1.0
+        uses: siddydutta/podcast-generator@master
         with:
           email: siddharthadutta@protonmail.com
           name: siddydutta
